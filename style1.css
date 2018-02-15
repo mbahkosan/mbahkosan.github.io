@@ -1,0 +1,77 @@
+#adit{
+  position: absolute;
+  top: 800px;
+}
+#pharga{
+  font-size: 50px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  color: white;
+}
+#judul{
+  font-size: 50px;
+  font-family: cursive;
+}
+#sbm{
+  font-size: 20px;
+  font-family: cursive;
+  position: absolute;
+  top: 600px;
+  left: 459px;
+}
+#submit{
+  text-decoration: none;
+  color: rgb(4, 14, 37);
+  border-radius: 10cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  font-size: 30px;
+  background: white;
+  border: 2px solid black;
+}
+#submit:hover{
+  text-decoration: none;
+  color: white;
+  border-radius: 10cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  font-size: 30px;
+  background: rgb(4, 14, 37);
+  border: 2px solid black;
+}
+#table{
+  font-family: cursive;
+}
+
+#total{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  background: rgb(4, 14, 37);
+  color: white;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.t{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: cursive;
+}
+#rp{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  background: rgb(4, 14, 37);
+  color: white;
+  height: 50px;
+  padding-bottom: 20px;
+}
+#pendaftaran{
+  position: absolute;
+  top: 60px;
+  left: 480px;
+}

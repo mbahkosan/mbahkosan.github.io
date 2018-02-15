@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MbahKosan</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <div id="total">
+      <p class="t">Prediksi Harga</p>
+    </div>
+    <div id="rp">
+      <div id="pharga"></div>
+    </div>
+    <div id="pendaftaran">
+      <h1 align="center" id="judul">Formulir Pendaftaran</h1>
+      <br><br>
+      <table align="center" id="table">
+        <tr>
+          <td>Nama Lengkap:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          <td> <input type="text" name="n1" value="" placeholder="Nama Lengkap" onclick="" required > </td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin:</td>
+          <td> <input type="radio" name="jk" value="" onclick="jkl()">Laki-Laki <input type="radio" name="jk" value="" onclick="jkp()">Perempuan </td>
+        </tr>
+        <tr>
+          <td>Alamat Rumah:</td>
+          <td> <input type="text" name="alamat" value="" placeholder="Alamat" onclick="" required> </td>
+        </tr>
+        <tr>
+          <td>Lokasi Kos:</td>
+          <td>
+            <select id="kosan" onchange="kosan(this)">
+              <option selected value="0">Lokasi Kos.......</option>
+              <option value="1">Kosan Haji Simin Rp.5jt - Rp.7jt /tahun</option>
+              <option value="2">Kosan Haji Murot Rp.7jt - Rp.9jt /tahun</option>
+              <option value="3">Kosan Haji Naim Rp.9jt - Rp.11jt /tahun</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pilihan Lantai</td>
+          <td>
+            <select id="lantai" onchange="lantai(this)">
+              <option selected>Pilih lantai.......</option>
+              <option value="1">Lantai Ke-1</option>
+              <option value="2">Lantai Ke-2</option>
+              <option value="3">Lantai Ke-3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Fasilitas</td>
+        </tr>
+        <tr>
+          <td>Kamar mandi</td>
+          <td>
+            <select id="kamarMandi" onchange="kamarMandi(this)">
+              <option value="0">Pilih Kamar Mandi.......</option>
+              <option value="1">Kamar Mandi Luar</option>
+              <option value="2">Kamar Mandi Dalam</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Perabotan</td>
+          <td> <input type="checkbox" name="" value="" id="kasur" onclick="kasur()">Kasur &nbsp;&nbsp; <input type="checkbox" name="" value="" id="meja" onclick="meja()">Meja Belajar &nbsp;&nbsp; <input type="checkbox" name="" value="" id="lemari" onclick="lemari()">Lemari <input type="checkbox" name="" value="" id="wifi" onclick="wifi()">Wifi </td>
+        </tr>
+      </table>
+      <br><br>
+      <a href="#adit" id="submit" onclick="submit()">Submit</a>
+      <br><br><br>
+    </div>
+    <div id="sbm"></div>
+    <a name="adit" id="adit"></a>
+
+    <script type="text/javascript" src="a.js"></script>
+  </body>
+</html>
